@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #343A40;
+
+    nav {
+        width: 85%;
+        margin: auto;
+        .collapseDiv{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .list{
+                li{
+                    a{
+                        color: gray;
+                    }
+                }
+            }
+            .btn{
+                .btn1,.btn2{
+                    color: #fff;
+                    border-radius: 0;
+                    border: 1px solid #7CBD1E;
+                }
+                .btn1{
+                    background-color: transparent;
+                }
+                .btn2{
+                    background-color: #7CBD1E;
+                }
+                .btn1:hover{
+                    background-color: #7CBD1E;
+                }
+                .btn2:hover{
+                    background-color: #669C19;
+                }
+            }
+        }
+    }
+}
+#unit1{
+    .domain{
+        position: relative;
+        img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+        }
+        h1{
+            position: absolute;
+            color: #fff;
+            top: 30%;
+            left: 26%;
+            font-size: 80px;
+        }
+        p{
+            position: absolute;
+            color: #fff;
+            top: 48%;
+            left: 44%;
+            font-size: 30px;
+        }
+        .btn3{
+            position: absolute;
+            top: 60%;
+            left: 42%;
+            border-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            .btn4,.btn5{
+                padding: 10px 12px;
+            }
+            .btn4{
+                background-color: #7CBD1E;
+                color: #fff;
+            }
+            .btn4:hover{
+                background-color: #669C19;
+            }
+            .btn5{
+                background-color: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+            }
+            .btn5:hover{
+                background-color: #fff;
+                color: #000;
+            }
+            .btn4:hover,.btn5:hover{
+                transition: 0.5s;
+            }
+        }
+    }
+}
+#unit2{
+    margin-top: 10%;
+    .hostingHead{
+        text-align: center;
+    }
+    .container{
+        margin-top: 4%;
+        .card{
+            padding: 43px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            i{
+                color: #7CBD1E;
+                text-align: center;
+                font-size: 60px;
+            }
+            h1{
+                text-align:center;
+                font-size: 30px;
+            }
+            p{
+                text-align: center;
+            }
+            button{
+                background-color: #7CBD1E;
+                width: 40%;
+                color: #fff;
+                padding: 6px;
+                border: 1px solid #669C19; 
+            }
+            button:hover{
+                background-color: #669C19;
+            }
+        }
+    }
+}
+#unit3{
+    margin-top: 14%;
+    .clients{
+        position: relative;
+        img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            filter: brightness(66%);
+        }
+        h1{
+            position: absolute;
+            top: 20%;
+            left: 8%;
+            color: #fff;
+            font-size: 80px;
+        }
+        p{
+            position: absolute;
+            top: 40%;
+            left: 8.5%;
+            color: #fff;
+            font-size: 26px;
+        }
+        button{
+            position: absolute;
+            top: 56%;
+            left: 10%;
+            padding: 12px;
+            background-color: #7CBD1E;
+            color: #fff;
+            border: 1px solid #7CBD1E;
+        }
+        button:hover{
+            background-color: #669C19;
+        }
+    }
+}
+
+
+footer{
+    margin-top: 10%;
+    background-color: #393E46;
+    width: 100%;
+    height: 120px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
